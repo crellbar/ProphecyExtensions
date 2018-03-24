@@ -1,0 +1,15 @@
+{
+    "name": "crellbar/ProphecyExtensions",
+    "description": "Prophecy promise for fluid interfaces",
+    "type": "library",
+    "require": {
+        "phpspec/prophecy": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Crellin",
+            "email": "development@crellbar.com"
+        }
+    ]
+}
