@@ -1,5 +1,5 @@
 {
-    "name": "crellbar/ProphecyExtensions",
+    "name": "crellbar/prophecy-extensions",
     "description": "Prophecy promise for fluid interfaces",
     "type": "library",
     "require": {
