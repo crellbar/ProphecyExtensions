@@ -2,8 +2,14 @@
     "name": "crellbar/prophecy-extensions",
     "description": "Prophecy promise for fluid interfaces",
     "type": "library",
+    "keywords": ["prophecy", "promise", "extension", "fluid", "interface", "this", "fluid-interface"],
     "require": {
         "phpspec/prophecy": "^1.5"
+    },
+    "autoload": {
+      "psr-4": {
+        "Crellbar\\ProphecyExtensions\\": "src/ProphecyExtensions"
+      }
     },
     "license": "MIT",
     "authors": [
