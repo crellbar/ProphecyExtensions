@@ -1,5 +1,9 @@
 # Prophecy Extensions
 
+## Install via composer
+php ./composer.phar require --dev crellbar/prophecy-extensions
+
+
 ## FluidPromise
 
 Provides a simple prophecy promise of a fluid interface.
@@ -17,5 +21,15 @@ use Crellbar\ProphecyExtensions\FluidPromise as Fluid;
 $prophecy->myMethod(Argument::any())->will(new Fluid());
 ```
 
-### Install via composer
-php ./composer.phar require --dev crellbar/prophecy-extensions
+
+## VoidPromise
+
+### Usage
+```php
+use Crellbar\ProphecyExtensions\VoidPromise as VoidP;
+
+/** @var ObjectProphecy $prophecy */
+... // setup prophecy in the usual fashion for the test tool you're using
+
+$prophecy->myMethod(Argument::any())->will(new VoidP());
+```
