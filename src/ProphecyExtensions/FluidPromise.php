@@ -16,7 +16,7 @@ use Prophecy\Prophecy\MethodProphecy;
 class FluidPromise implements PromiseInterface
 {
     /**
-     * Returns Object
+     * Returns revealed Object from within prophecy
      *
      * @param array          $args
      * @param ObjectProphecy $object
